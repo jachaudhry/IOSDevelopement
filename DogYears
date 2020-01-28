@@ -1,0 +1,12 @@
+// Rocket is 6 years old.
+var dogAge = 6
+var earlyYears = 2
+var laterYears = 6
+var humanYears = 21
+// Rocket's first two years of his life count as 21 human years.
+earlyYears = 2
+// Following years count as 4 human years.
+laterYears = (dogAge - 2) * 4
+// Rocket's age in human years
+humanYears = early Years + laterYears;
+print ("My name is Rocket! Ruff Ruff, I am \(humanYears) years old in human years")
